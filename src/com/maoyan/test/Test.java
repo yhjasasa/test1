@@ -11,6 +11,7 @@ public class Test {
     }
 
     private static String changeToUpper(String str){
+        str = str+"#end";
         return str.toUpperCase();
     }
 }
